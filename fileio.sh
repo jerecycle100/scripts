@@ -1,25 +1,25 @@
 #!/bin/bash
-
-echo "Let's get started"
-echo "*****************"
-echo
-
-echo "The cat command"
-echo "*****************"
-echo
-cat io.txt
-echo
-echo
-
-echo "The grep command"
-echo "*****************"
-echo
-echo "*** basic grep ***"
-grep "Fun" io.txt
+#
+#echo "Let's get started"
+#echo "*****************"
+#echo
+#
+#echo "The cat command"
+#echo "*****************"
+#echo
+#cat io.txt
+#echo
+#echo
+#
+#echo "The grep command"
+#echo "*****************"
+#echo
+#echo "*** basic grep ***"
+grep "organs" io.txt
 echo "*** counting matching lines ***"
-grep -c "Fun" io.txt
+grep -c "fetal" io.txt
 echo "*** case insensitive ***"
-grep -i "fun" io.txt
+grep -i "vein" io.txt
 echo
 echo
 #
@@ -30,7 +30,7 @@ echo "*** counting lines in a file ***"
 wc -l io.txt
 echo
 echo
-
+echo Jeremiah Jeremiah jeremiah jeremiah jeremiah jeremiah jeremiah jeremiah jeremiah 
 # head
 # tail
 
